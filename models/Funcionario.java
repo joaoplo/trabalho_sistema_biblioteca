@@ -8,11 +8,19 @@ public class Funcionario extends Pessoa {
         this.cargo = cargo;
     }
 
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
     @Override
     public void exibirInfo() {
-        System.out.println("---- Funcionário ----");
-        System.out.println("Nome: " + nome);
-        System.out.println("Email: " + email);
+        System.out.println("Funcionário:");
+        System.out.println("Nome: " + getNome());
+        System.out.println("Email: " + getEmail());
         System.out.println("Cargo: " + cargo);
     }
 }

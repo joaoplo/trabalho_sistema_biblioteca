@@ -14,7 +14,7 @@ public class Emprestimo {
     }
 
     public void exibirDetalhes() {
-        System.out.println("---- Detalhes do Empréstimo ----");
+        System.out.println("Empréstimo:");
         System.out.println("Data de Empréstimo: " + dataEmprestimo);
         System.out.println("Data de Devolução: " + dataDevolucao);
         pessoa.exibirInfo();
